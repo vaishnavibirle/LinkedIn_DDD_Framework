@@ -6,6 +6,10 @@ import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+/*Created parameter Test for performing parameterization
+* Used @parameter annotation for providing values from testNg.xml file
+* Validating test case by getting title of the page
+*/
 
 public class ParameterTest extends BaseClass {
 
