@@ -7,6 +7,13 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
+/*@Desc - Created Base class
+* used before test and after test annotations
+* user parameterization for getting url value from testng.xml file
+* imported chrome driver
+* */
+
+
 public class BaseClass {
 
     public static WebDriver driver;
