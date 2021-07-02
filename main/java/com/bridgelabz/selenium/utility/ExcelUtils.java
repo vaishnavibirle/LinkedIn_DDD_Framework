@@ -4,6 +4,13 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelUtils {
+    
+     /*Declared project path , workbook and sheet
+    * called constructor
+    * used getrowcount method
+    * used getcolumncount method
+    * used getCellData method
+    * @return will return all the values*/
 
     static String projectPath;
     static XSSFWorkbook workbook;
