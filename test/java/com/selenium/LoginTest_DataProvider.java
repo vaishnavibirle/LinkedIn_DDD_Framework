@@ -6,6 +6,12 @@ import com.bridgelabz.selenium.utility.DataProvider;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+/*called dataProvider class
+* created method login Test
+* where we initialize username and password as string
+* done validation using Title of the page
+* */
+
 public class LoginTest_DataProvider extends BaseClass {
 
     @Test(dataProvider="test1",dataProviderClass=DataProvider.class)
