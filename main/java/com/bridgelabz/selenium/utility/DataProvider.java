@@ -1,6 +1,11 @@
 package com.bridgelabz.selenium.utility;
 
 public class DataProvider {
+    
+    /*@Description - Created Data provider class for providing data from excel sheet to application
+* used object
+* Created method getData which gets the path and sheet name
+* @return returns the data */
 
     @org.testng.annotations.DataProvider(name = "test1")
     public static Object[][] getData() {
