@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="LinkedIn App Test">
+    <test name="LinkedIn Test">
+
+       <!-- <parameter name="browser" value="chrome"></parameter>-->
+
+        <!--If u want to take firefox or any other then this is the way-->
+        <!--<parameter name="browser" value="firefox"></parameter>-->
+
+        <parameter name="url" value="https://www.linkedin.com"></parameter>
+
+        <classes>
+            <class name="com.bridgelabz.selenium.base.BaseClass">
+                <methods>
+                    <include name="setUp"></include>
+                </methods>
+            </class>
+            <class name="com.bridgelabz.selenium.pages.Login">
+                <methods>
+
+                    <include name="login"></include>
+                </methods>
+            </class>
+            <class name="com.selenium.ParameterTest">
+                <methods>
+                    <parameter name="username" value="vaishnavibirle1133@gmail.com"/>
+                    <parameter name="password" value="vaishnavi@123"/>
+                    <include name="LoginTest"></include></methods>
+            </class>
+        </classes>
+    </test>
+</suite>
