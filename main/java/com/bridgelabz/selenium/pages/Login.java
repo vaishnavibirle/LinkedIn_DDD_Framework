@@ -3,6 +3,10 @@ package com.bridgelabz.selenium.pages;
 import com.bridgelabz.selenium.base.BaseClass;
 import org.openqa.selenium.By;
 
+/*@Description - created login class and method
+* provided elements using locators
+* extended base class for getting connected with chrome driver*/
+
 public class Login extends BaseClass {
 
     public void login(String username,String password) throws InterruptedException {
