@@ -25,8 +25,8 @@
             </class>
             <class name="com.selenium.ParameterTest">
                 <methods>
-                    <parameter name="username" value="vaishnavibirle1133@gmail.com"/>
-                    <parameter name="password" value="vaishnavi@123"/>
+                    <parameter name="username" value=""/>
+                    <parameter name="password" value=""/>
                     <include name="LoginTest"></include></methods>
             </class>
         </classes>
