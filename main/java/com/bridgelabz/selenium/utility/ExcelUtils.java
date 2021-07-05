@@ -6,7 +6,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class ExcelUtils {
     
      /*Declared project path , workbook and sheet
-    * called constructor
+    * called constructor and also tried custom exception.
     * used getrowcount method
     * used getcolumncount method
     * used getCellData method
